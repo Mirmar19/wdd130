@@ -55,7 +55,7 @@ article {
 
 .para {
     background-color: var(--secondary-color);
-    color: blue;
+    color:  white;
     padding-right: 400px;
     font-weight: bold;
 }
