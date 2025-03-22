@@ -16,12 +16,12 @@ h1 {
 }
 h2 {
     background-color: var(--primary-color);
-    color: persian blue;
+    color: blue;
     text-align: center;
 }
 p {
     background-color: var(--primary-color);
-    color: persian blue;
+    color: blue;
 }
 .a {
     text-decoration: none;
@@ -55,7 +55,7 @@ article {
 
 .para {
     background-color: var(--secondary-color);
-    color: persian blue;
+    color: blue;
     padding-right: 400px;
     font-weight: bold;
 }
