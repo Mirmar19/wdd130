@@ -353,25 +353,7 @@ table {
     color: black;
     text-align: left;
   }
-  .head4 {
-    position: relative;
-    bottom: 300px;
-    left: 1050px;
-    width: 600px;
-  }
-  .image10 {
-    position: absolute;
-    bottom: -1000px;
-    left: 1175px;
-} 
-.head5 {
-    margin-right: 35px;
-}
-.image11 {
-    float: left;
-    margin-right: 30px;
-    margin-top: -15px;
-}
+ 
 .flex3 {
     flex: 1 1;
     box-sizing: border-box;
