@@ -185,6 +185,13 @@ figcaption {
     margin-left: 25px;
     margin-top: 70px;
 }
+.footer2 {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -85px;
+}
 .flex2 {
     padding: 0px;
     background-color: #ffffff;
