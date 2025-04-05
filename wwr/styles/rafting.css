@@ -152,11 +152,7 @@ figcaption {
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
-  }
-.image {
-      display: block;
-      width: 100%;
-  }
+ }
 .image {
     display: block;
     width: 100%;
