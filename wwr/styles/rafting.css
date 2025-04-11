@@ -1,24 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    max-width: 1550px;
-}
-
 :root {
     --primary-color: #FFFFFF;
     --secondary-color: #192BC2;
     --accent1-color: #0D0A0B;
     --accent2-color: #44BBA4;
-    }
+}
 h1 {
     background-color: #0000ff;
     color: var(--primary-color);
     position: absolute;
     padding: 25px;
-    margin: -40px;
+    margin: 25;
     top: 200px;
-    left: 525px;
+    margin-left: 550px;
     opacity: 0.7;
 }
 h2 {
@@ -32,7 +25,7 @@ p {
 }
 .a {
     text-decoration: none;
-    margin-right: 20px;
+    margin-top: 100px;
 }
 .hero {
     display: block;
@@ -83,11 +76,6 @@ header {
 	    max-width: 5000px;
 }
 nav {
-    width: 700px;
-    margin-top: -70px;
-    margin-bottom: 65px;
-    margin-left: 450px;
-    line-height: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -95,8 +83,7 @@ nav {
 }
 a {
     color: #0000ff;
-    right: 100px;
-}
+ }
 .section1 {
     display: flex;
     flex-wrap: wrap;
@@ -123,7 +110,6 @@ figure {
     flex-direction: column;
     gap: 1px;
     padding: 0px;
-    width: 100%;
     margin: 0 auto;
 }
 figcaption {
@@ -135,29 +121,18 @@ figcaption {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    margin-left: -1px;
   }
-
-.container1 {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    margin-left: -50px;
-    margin-top: 30px;
-  }
-
 .photos{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     flex-grow: 1;
- }
+  }
 .image {
     display: block;
     width: 100%;
-    margin-left: 5px;
-}
+  }
 .image1 {
     display: block;
     width: 100%;
@@ -173,6 +148,11 @@ figcaption {
     width: 100%;
     margin-left: 20px;
 }
+.image4 {
+    display: block;
+    width: 100%;
+    margin-left: 20px;
+}
 .word{
     display: block;
     width: 100%;
@@ -182,64 +162,33 @@ figcaption {
     display: block;
     width: 100%;
     text-align: center;
-    margin-left: 35px;
+    margin-left: 21px;
 }
-
-.word3 {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin-left: 55px;
-}
-
 .socialmedia {
     justify-content: right;
-    margin-top: 35px;
+    margin-top: 15px
 }
 .footer1 {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     flex-grow: 1;
     align-items: center;
-    margin-right: -1500px;
-    margin-top: 130px;
-}
-.footer2 {
-    display: flex;
-    justify-content: right;
-    flex-direction: row;
-    align-items: center;
-    margin-top: -85px;
-    margin-left: -60px;
-}
-
-.footer3 {
-    display: flex;
-    justify-content: right;
-    flex-direction: row;
-    align-items: center;
+    margin-left: 300px;
     margin-top: 100px;
-    margin-left: -600px;
 }
-
-.sociallinks {
-    margin-top: -89px;
-    margin-left: 800px;
-}
-
 .flex2 {
     padding: 0px;
     background-color: #ffffff;
     text-align: left;
-    width: 450px;
-    padding-left: 80px;
+    width: 400px;
+    padding-left: 210px;
 }
 .head2 {
-    padding-top: 110px;
+    padding-top: 150px;
     text-align: left;
-    padding-left: 7ch;
-    width: 150px;
+    padding-left: 210px;
+    width: 300px;
 }
 .section2 {
     display: flex;
@@ -248,11 +197,6 @@ figcaption {
     padding: 0px;
     max-width: 1200px;
     margin: 0 auto;
-}
-.image4 {
-    display: block;
-    width: 100%;
-    margin-left: 30px;
 }
 .image5 {
     display: block;
@@ -270,11 +214,10 @@ figcaption {
     width: 50%;
     margin-left: 200px;
 }
-
 form {
     display: grid;
     width: 650px;
-    margin-left: 800px;
+    margin-left: 830px;
     margin-top: -460px;
     margin-bottom: 250px;
     padding: 1rem;
@@ -319,7 +262,7 @@ form {
     right: 230px;
     bottom: -350px;
 }
-.image77 {
+.image8 {
     float: right;
     margin-right: 320px;
     margin-top: 20px;
@@ -328,7 +271,10 @@ form {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold; 
     color: black;
+    margin-top: 100px;
+    margin-bottom: -100px;
 }
+
 .paragraph2 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic; 
@@ -348,7 +294,7 @@ form {
     color: var(--primary-color);
     height: 210px;
 }
-.image8 {
+.image9 {
     float: left;
     margin-right: 30px;
     margin-top: 40px;
@@ -368,10 +314,17 @@ form {
     margin-right: 24px;
 }
 .head1 {
+    background-color: white;
+    color: black;
+    margin-left: 60px;
+}
+
+.head6 {
     background-color: var(--primary-color);
     color: black;
-    margin-left: 30px;
+    margin-left: 600px;
 }
+
 .border2 {
     padding: 1.2em;
     margin-right: -0.3em;
@@ -379,7 +332,7 @@ form {
     background-color: #ffffff;
     border: 1px solid #ddd;
     margin-bottom: 25px;
-    margin-top: 15px;
+    margin-top: 110px;
 }
 .head3 {
     background-color: var(--primary-color);
@@ -399,14 +352,14 @@ table {
     border:1px solid black;
     margin-top: 20px;
     border-spacing: 20px;
-    margin-left: 285px;
+    margin-left: 155px;
     color: black;
     text-align: left;
   }
   .head4 {
     position: relative;
     bottom: 300px;
-    left: 1050px;
+    left: 800px;
     width: 600px;
   }
   .image9 {
@@ -418,9 +371,9 @@ table {
     margin-right: 35px;
 }
 .image10 {
-    float: left;
-    margin-right: 30px;
-    margin-top: -15px;
+    margin-left: 930px;
+    margin-top: -300px;
+    margin-bottom: 100px;
 }
 .flex3 {
     flex: 1 1;
