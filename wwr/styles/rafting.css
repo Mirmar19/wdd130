@@ -104,6 +104,7 @@ a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 figure {
     display: flex;
     flex-wrap: wrap;
@@ -218,7 +219,21 @@ figcaption {
 .image11 {
     display: block;
     width: 50%;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.image14 {
+    display: block;
+    width: 50%;
     margin-left: 700px;
+    margin-top: 110px;
+}
+
+.image13 {
+    display: block;
+    width: 50%;
+    margin-left: 300px;
     margin-top: 100px;
 }
 
