@@ -88,14 +88,15 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 20px;
+    padding: 30px;
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 10px;
 }
 .flex {
     flex: 1 1;
     box-sizing: border-box;
-    padding: 200px;
+    padding: 60px;
     background-color: #ffffff;
     color: black;
     border: 1px solid #ddd;
@@ -103,6 +104,7 @@ a {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 
 figure {
@@ -137,12 +139,12 @@ figcaption {
 .image1 {
     display: block;
     width: 100%;
-    margin-left: 10px;
+    margin-left: 7px;
 }
 .image2 {
     display: block;
     width: 100%;
-    margin-left: 15px;
+    margin-left: 13px;
 }
 .image3 {
     display: block;
@@ -152,7 +154,7 @@ figcaption {
 .image4 {
     display: block;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 25px
 }
 .word{
     display: block;
@@ -183,12 +185,12 @@ figcaption {
     background-color: #ffffff;
     text-align: left;
     width: 400px;
-    padding-left: 210px;
+    padding-left: 50px;
 }
 .head2 {
     padding-top: 150px;
     text-align: left;
-    padding-left: 210px;
+    padding-left: 50px;
     width: 300px;
 }
 .section2 {
@@ -219,8 +221,8 @@ figcaption {
 .image11 {
     display: block;
     width: 50%;
-    margin-left: 200px;
-    margin-top: 100px;
+    margin-left: 250px;
+    margin-top: 65px;
 }
 
 .image14 {
@@ -232,22 +234,24 @@ figcaption {
 
 .image13 {
     display: block;
-    width: 50%;
-    margin-left: 300px;
-    margin-top: 100px;
+    width: 65%;
+    margin-left: 165px;
+    margin-top: 55px;
 }
 
 .image12 {
     display: block;
-    width: 50%;
+    width: 70%;
     margin-left: 200px;
-    margin-top: -250px;
+    margin-top: 0px;
+    margin-bottom: 00px;
+    padding-top: 60px;
 }
 
 form {
     display: grid;
     width: 650px;
-    margin-left: 830px;
+    margin-left: 800px;
     margin-top: -460px;
     margin-bottom: 250px;
     padding: 1rem;
@@ -312,13 +316,24 @@ label {
     color: black;
     margin-top: 100px;
     margin-bottom: -100px;
+    box-shadow:  5px 10px #888888;
+}
+.paragraph6 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold; 
+    color: blue;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    margin-bottom: -60px;
 }
 
 .paragraph2 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic; 
-    margin-top: 75px;
-    color: black;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    color: #0000ff;
 }
 .form2 {
     display: grid;
@@ -334,8 +349,10 @@ label {
     height: 210px;
 }
 .image9 {
-    margin-left: -630px;
-    margin-bottom: -140px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+
 }
 .section4 {
     margin-top: 100px;
@@ -347,6 +364,8 @@ label {
     margin-left: -0.1em;
     background-color: #ffffff;
     border: 1px solid #ddd;
+    border-radius: 1rem;
+    box-shadow:  5px 10px #888888;
 }
 .position {
     margin-right: 24px;
@@ -365,17 +384,20 @@ label {
 
 .border2 {
     padding: 1.2em;
+    padding-bottom: 90px;
     margin-right: -0.3em;
     margin-left: -0.3em;
     background-color: #ffffff;
     border: 1px solid #ddd;
     margin-bottom: 25px;
     margin-top: 110px;
+    box-shadow:  5px 10px #888888;
 }
 .head3 {
     background-color: var(--primary-color);
     color: black;
     margin-right: 100px;
+    margin-top: -55px;
 }
 .section5 {
     display: flex;
@@ -384,7 +406,7 @@ label {
     padding: 30px;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 10px;
 }
 
 table {
@@ -401,13 +423,18 @@ table {
     left: 800px;
     width: 600px;
   }
-  .image9 {
-    position: absolute;
-    bottom: -1000px;
-    left: 1175px;
-} 
+ 
 .head5 {
     margin-right: 35px;
+    margin-top: -15px;
+}
+.head15 {
+    margin-right: 35px;
+    margin-top: -40px;
+}
+.head16 {
+    margin-right: 35px;
+    margin-top: 45px;
 }
 .image10 {
     margin-left: 930px;
@@ -422,4 +449,58 @@ table {
     color: black;
     text-align: center;
     font-weight: bold;
+}
+
+.flex4 {
+    flex: 1 1;
+    box-sizing: border-box;
+    padding: 100px;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.flex5 {
+    flex: 1 1;
+    box-sizing: border-box;
+    padding: 100px;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.flex6 {
+    flex: 1 1;
+    box-sizing: border-box;
+    padding: 100epx;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.paragraph3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold; 
+    color: black;
+    margin-top: 60px;
+    margin-bottom: -60px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow:  5px 10px #888888;
+    padding: 10px;
+}
+.paragraph7 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold; 
+    color: black;
+    margin-top: 30px;
+    margin-bottom: -40px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow:  5px 10px #888888;
+    padding:100px;
+    padding-top: 30px;
 }
