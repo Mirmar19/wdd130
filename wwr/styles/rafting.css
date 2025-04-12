@@ -475,7 +475,7 @@ table {
 .flex6 {
     flex: 1 1;
     box-sizing: border-box;
-    padding: 100epx;
+    padding: 10epx;
     background-color: #ffffff;
     color: black;
     text-align: center;
